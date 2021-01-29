@@ -156,7 +156,7 @@ header nav a {
 .work--line {
   margin: 20px auto 30px;
   height: 0;
-  border: 3px solid;
+  border: 2px solid #505050;
   width: 20%;
 }
 .work p {
@@ -261,7 +261,7 @@ header nav a {
 .team--line {
   margin: 20px auto 30px;
   height: 0;
-  border: 3px solid;
+  border: 2px solid #505050;
   width: 20%;
 }
 .team p {
@@ -372,7 +372,7 @@ header nav a {
 .contact--line {
   margin: 20px auto 30px;
   height: 0;
-  border: 3px solid;
+  border: 2px solid #505050;
   width: 20%;
 }
 .contact__content {
