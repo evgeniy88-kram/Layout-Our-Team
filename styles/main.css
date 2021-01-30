@@ -305,7 +305,6 @@ header nav a {
   justify-content: center;
   flex-direction: column;
   border: 1px solid #505050;
-  cursor: pointer;
 }
 .team__person__block:hover {
   box-shadow: 0 0 15px 2px #505050;
@@ -605,6 +604,18 @@ header nav a {
   top: 0;
   bottom: 0;
   margin: auto;
+}
+@media screen and (max-width: 900px) {
+  .modal__gallery {
+    width: 500px;
+    height: 333px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .modal__gallery {
+    width: 320px;
+    height: 211px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

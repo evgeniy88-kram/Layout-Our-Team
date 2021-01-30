@@ -174,7 +174,6 @@ header {
       grid-template-columns: 1fr;
       width: 260px;
     }
-
     div {
       width: 260px;
       height: 170px;
@@ -272,7 +271,6 @@ header {
       @include flexCentrCentr;
       flex-direction: column;
       border: 1px solid $mainColor;
-      cursor: pointer;
       &:hover {
         box-shadow: 0 0 15px 2px $mainColor;
       }
@@ -529,6 +527,14 @@ header {
   top: 0;
   bottom: 0;
   margin: auto;
+  @media screen and (max-width: 900px) {
+    width: 500px;
+    height: 333px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 320px;
+    height: 211px;
+  }
 }
 
 
